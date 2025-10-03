@@ -5,21 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/AD_Confianca.ico" type="image/x-icon">
     <title>Confianca</title>
+    <style>
+        @charset "UTF-8";
+
+        /*
+        #D4A852 - dourado
+        #F9F9F9 - branco
+        #040404 -preto
+        #2A4D85 - azul
+
+        header{
+            background-image: linear-gradient(to bottom,  #2A4D85,  #1c345c);
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: var(--color01);
+            text-decoration: underline;
+            transition-duration: 0.5;
+        }
+        header img{
+            display: inline-block;
+            max-width: 200px;
+            min-width: 10px;
+        }
+        header img:hover{
+            opacity: 30%;
+        }
+        */
+
+        :root{
+            --color01: #D4A852;
+            --color02: #F9F9F9;
+            --color03: #040404;
+            --color04: #2A4D85;
+            --color05: #1c345c;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-image: linear-gradient(to bottom, #2A4D85, #1c345c); /* Cor de fundo preta */
+            color: white;
+            }
+
+            /* Estilos do logo */
+            .logo img {
+            height: 50px; /* Defina o tamanho adequado */
+            }
+
+            /* Estilos da barra de navegação */
+            .nav ul {
+            display: flex;
+            list-style-type: none;
+            }
+
+            .nav li {
+            margin: 0 20px;
+            }
+
+            .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            }
+
+            .nav a:hover {
+            color: gold; /* Cor ao passar o mouse */
+            }
+        body{
+            background-color: var(--color02);
+        }
+        main{
+            background-color: white;
+            box-shadow: 3px 7px 11px rgba(0, 0, 0, 0.363);
+            max-width: 900px;
+            min-width: 300px;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <picture>
+    <header class="header">
+        <picture class="logo">
             <img src="./img/AD_Confianca.png" alt="confianca-logo">
         </picture>
-        <nav>
-            <a href="#"></a>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">NOTÍCIAS</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">CONFIANÇA</a></li>
+                
+            </ul>
         </nav>
     </header>
     <main>
+        <article>
+            <!--https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a
+            
+            LINK DO WIKIPEDIA DO CONFIANÇA
+            
+            https://pt.wikipedia.org/wiki/Aracaju
+            
+            LINK DO WIKIPEDIA ARACAJU
 
+            -->
+            <h2>Working-Class Pride and Tradition in the Official Anthem of Confiança (SE)</h2>
+
+            <p>The “Official Anthem of <a href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a">Confiança (SE)</a>,” performed by Hinos de Futebol, highlights the pride in the club’s working-class roots with the line: “Dos operários tem o nome a vitória” (“From the workers, victory bears its name”). This verse directly references the team’s founding in 1936 by workers from the Confiança Factory, reinforcing its popular identity and deep connection with <a href="https://pt.wikipedia.org/wiki/Aracaju">Aracaju’s</a> working class. The anthem goes beyond celebrating sporting achievements—it honors the collective journey and the strength of a community that sees itself reflected in the team.</p>
+
+            <p>Phrases like “campeão dos campeões” (“champion of champions”) and the mention of the “bandeira de cor alvi-anil” (“white and blue flag”) strengthen the sense of tradition and belonging. Meanwhile, the lines “Tua luta continuará / Outras taças / Iremos conquistar” (“Your fight will go on / More trophies / We shall win”) convey perseverance and hope for future victories. The final line, “Quem foi rei sempre é majestade” (“He who was king is always royalty,”) suggests that regardless of future results, <a href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a">Confiança</a> retains its stature of greatness and respect, keeping alive the pride of its history. In this way, the anthem becomes a symbol of unity, memory, and motivation for fans and players alike—celebrating both a glorious past and the hope for future triumphs.</p>
+        </article>
+        <aside>
+            <h3>Video to hear the Confiança's Anthem</h3>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/moPFJqIk_74?si=WO10yPOoNjVomyM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </aside>
     </main>
     <footer>
-        <p>Wbsite craeted by <a href="github.com/gabrielfonsecasx">GabrielFonsecasx</a></p>
+        <p>Website craeted by <a href="github.com/gabrielfonsecasx">GabrielFonsecasx</a></p>
     </footer>
     
 </body>
