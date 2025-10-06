@@ -23,29 +23,7 @@
         #040404 -preto
         #2A4D85 - azul
 
-        header{
-            background-image: linear-gradient(to bottom,  #2A4D85,  #1c345c);
-        }
-        nav a{
-            color: white;
-            text-decoration: none;
-            text-align: center;
-            font-family: sans-serif;
-            font-weight: bold;
-        }
-        nav a:hover{
-            color: var(--color01);
-            text-decoration: underline;
-            transition-duration: 0.5;
-        }
-        header img{
-            display: inline-block;
-            max-width: 200px;
-            min-width: 10px;
-        }
-        header img:hover{
-            opacity: 30%;
-        }
+        
         Aref Ruqaa
 
         */
@@ -62,39 +40,45 @@
             margin: 0;
             padding: 0;
         }        
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-image: linear-gradient(to bottom, #2A4D85, #1c345c); /* Cor de fundo preta */
+        header{
+            background-image: linear-gradient(to bottom,  #2A4D85,  #1c345c);
+            padding-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header h2{
             color: white;
-            }
-
-            /* Estilos do logo */
-            .logo img {
-            height: 50px; /* Defina o tamanho adequado */
-            }
-
-            /* Estilos da barra de navegação */
-            .nav ul {
-            display: flex;
-            list-style-type: none;
-            }
-
-            .nav li {
-            margin: 0 20px;
-            }
-
-            .nav a {
+            text-align: center;
+            padding: 20px 20px 50px 20px;
+            font-size: 40px;
+        }
+        nav a{
             color: white;
             text-decoration: none;
             font-weight: bold;
-            }
-
-            .nav a:hover {
-            color: gold; /* Cor ao passar o mouse */
-            }
+            padding: 10px;
+        }
+        nav li{
+            display: inline;
+        }
+        nav a:hover{
+            color: var(--color01);
+            text-decoration: underline;
+            transition-duration: 0.5;
+        }
+        hr{
+            margin: 10px;
+        }
+       /* header img{
+            display: inline-block;
+            width: 15%;
+        } */
+        header img:hover{
+            opacity: 50%;
+        }
+        header img{
+            max-width: 15px;
+            padding-left: 10px;
+        }
         body{
             background-color: var(--color02);
         }
@@ -106,19 +90,33 @@
             margin: auto;
             font-family: 'Aref', Arial, Helvetica, sans-serif;
         }
+        main img{
+            padding-top: 30px;
+            margin: auto;
+            display: block;
+        }
+        picture p{
+            font-size: 15px;
+            text-align: center;
+            padding-bottom: 30px;
+        }
     </style>
 </head>
 <body>
-    <header class="header">
-        <picture class="logo">
+    <header>
+        <h2>Soccer Curiosites</h2>
+        <!--<picture>
             <img src="./img/AD_Confianca.png" alt="confianca-logo">
-        </picture>
-        <nav class="nav">
+        </picture>-->
+        <nav>
             <ul>
-                <li><a href="#">INÍCIO</a></li>
-                <li><a href="#">NOTÍCIAS</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
                 <li><a href="#">CONFIANÇA</a></li>
+                <hr>
+                <li><img src="./img/flag-united-states_1f1fa-1f1f8.png" alt="usa-flag"><a href="#">EN</a></li>
+                <li><img src="./img/flag-brazil_1f1e7-1f1f7.png" alt="brazil-flag"><a href="./ptbr/index.html">PT</a></li>
                 
             </ul>
         </nav>
@@ -137,6 +135,12 @@
             <h2>Working-Class Pride and Tradition in the Official Anthem of Confiança (SE)</h2>
 
             <p>The “Official Anthem of <a href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a">Confiança (SE)</a>,” performed by Hinos de Futebol, highlights the pride in the club’s working-class roots with the line: “Dos operários tem o nome a vitória” (“From the workers, victory bears its name”). This verse directly references the team’s founding in 1936 by workers from the Confiança Factory, reinforcing its popular identity and deep connection with <a href="https://pt.wikipedia.org/wiki/Aracaju">Aracaju’s</a> working class. The anthem goes beyond celebrating sporting achievements—it honors the collective journey and the strength of a community that sees itself reflected in the team.</p>
+
+            <picture>
+                <img src="./img/4bb00b5d08b49fb0dd8dd5dc32fb33b0.jpg" alt="logos-png">
+                <p>Evolution Confiança's shields</p>
+            </picture>
+
 
             <p>Phrases like “campeão dos campeões” (“champion of champions”) and the mention of the “bandeira de cor alvi-anil” (“white and blue flag”) strengthen the sense of tradition and belonging. Meanwhile, the lines “Tua luta continuará / Outras taças / Iremos conquistar” (“Your fight will go on / More trophies / We shall win”) convey perseverance and hope for future victories. The final line, “Quem foi rei sempre é majestade” (“He who was king is always royalty,”) suggests that regardless of future results, <a href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a">Confiança</a> retains its stature of greatness and respect, keeping alive the pride of its history. In this way, the anthem becomes a symbol of unity, memory, and motivation for fans and players alike—celebrating both a glorious past and the hope for future triumphs.</p>
         </article>
