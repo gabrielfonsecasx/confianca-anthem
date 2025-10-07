@@ -95,10 +95,35 @@
             margin: auto;
             display: block;
         }
-        picture p{
+        picture p#shield{
             font-size: 15px;
             text-align: center;
             padding-bottom: 30px;
+        }
+        main h2{
+            padding: 20px;
+        }
+        main p{
+            text-align: justify;
+            padding: 10px;
+            margin: 10px;
+            text-indent: 36px;
+        }
+        aside h3{
+            margin-top: 20px;
+        }
+        div.video{
+            background-color: var(--color05);
+            padding-bottom: 59%;
+            position: relative;
+            margin: 10px 0px 15px 0px;
+        }
+        div.video iframe{
+             position: absolute;
+             top: 5%;
+             left: 5%;
+             width: 90%;
+             height: 90%;
         }
     </style>
 </head>
@@ -138,7 +163,7 @@
 
             <picture>
                 <img src="./img/4bb00b5d08b49fb0dd8dd5dc32fb33b0.jpg" alt="logos-png">
-                <p>Evolution Confiança's shields</p>
+                <p id="shield">Evolution Confiança's shields</p>
             </picture>
 
 
@@ -146,7 +171,7 @@
         </article>
         <aside>
             <h3>Video to hear the Confiança's Anthem</h3>
-            <div>
+            <div class="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/moPFJqIk_74?si=WO10yPOoNjVomyM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </aside>
