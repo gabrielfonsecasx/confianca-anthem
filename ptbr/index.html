@@ -3,26 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/AD_Confianca.ico" type="image/x-icon">ink
+    <link rel="shortcut icon" href="../img/AD_Confianca.ico" type="image/x-icon">
     <title>Confiança</title>
     <style>
         @charset "UTF-8";
-    </style>
-</head>
-<body>
-    <header>
 
-    </header>
-    <main>
-        <p>header: Curiosidades do Futebol
+        @font-face {
+            font-family: 'Aref';
+            src: url(../fonts/ArefRuqaa-Regular.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Ruqaa';
+            src: url(../fonts/ArefRuqaa-Bold.ttf) format('truetype');
+        }
+
+        /*
+        #D4A852 - dourado
+        #F9F9F9 - branco
+        #040404 -preto
+        #2A4D85 - azul
+
+        
+        Aref Ruqaa
+
+        header: Curiosidades do Futebol
 
         main: PT VERSION: Orgulho operário e tradição no “Hino Oficial do Confiança (SE)”
         O “Hino Oficial do <a href="confianca-wikipedia">Confiança (SE)”, interpretado por Hinos de Futebol, ressalta o orgulho das origens operárias do clube ao afirmar: “Dos operários tem o nome a vitória”. Esse verso faz referência direta à fundação do time em 1936 por trabalhadores da Fábrica Confiança, reforçando a identidade popular e a forte ligação do clube com a classe trabalhadora de <a href="aracaju-wikipedia">Aracaju. O hino vai além de celebrar conquistas esportivas, valorizando a trajetória coletiva e a força de uma comunidade que se reconhece no time.
 
-        Expressões como “campeão dos campeões” e a menção à “bandeira de cor alvi-anil” reforçam o sentimento de tradição e pertencimento. Já os versos “Tua luta continuará / Outras taças / Iremos conquistar” transmitem perseverança e esperança em novas vitórias. O trecho final, “Quem foi rei sempre é majestade”, sugere que, independentemente dos resultados futuros, o <a href="confianca-wikipedia">Confiança mantém seu status de grandeza e respeito, perpetuando o orgulho de sua história. Assim, a música se torna um símbolo de união, memória e motivação para torcedores e jogadores, celebrando tanto o passado glorioso quanto a expectativa de conquistas futuras.</p>
+        Expressões como “campeão dos campeões” e a menção à “bandeira de cor alvi-anil” reforçam o sentimento de tradição e pertencimento. Já os versos “Tua luta continuará / Outras taças / Iremos conquistar” transmitem perseverança e esperança em novas vitórias. O trecho final, “Quem foi rei sempre é majestade”, sugere que, independentemente dos resultados futuros, o <a href="confianca-wikipedia">Confiança mantém seu status de grandeza e respeito, perpetuando o orgulho de sua história. Assim, a música se torna um símbolo de união, memória e motivação para torcedores e jogadores, celebrando tanto o passado glorioso quanto a expectativa de conquistas futuras.
+
+        */
+
+        :root{
+            --color01: #D4A852;
+            --color02: #F9F9F9;
+            --color03: #040404;
+            --color04: #2A4D85;
+            --color05: #1c345c;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }        
+        header{
+            background-image: url('../img/WhatsApp\ Image\ 2025-10-10\ at\ 11.47.50.jpeg');
+            background-position: center center;
+            padding-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header h2{
+            color: white;
+            text-align: center;
+            padding: 20px 20px 50px 20px;
+            font-size: 40px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+        nav li{
+            display: inline;
+        }
+        nav a:hover{
+            color: var(--color01);
+            text-decoration: underline;
+            transition-duration: 0.5;
+        }
+        hr{
+            margin: 10px;
+        }
+       /* header img{
+            display: inline-block;
+            width: 15%;
+        } */
+        header img:hover{
+            opacity: 50%;
+        }
+        header img{
+            max-width: 15px;
+            padding-left: 10px;
+        }
+        body{
+            background-color: var(--color02);
+        }
+        main{
+            background-color: white;
+            box-shadow: 3px 7px 11px rgba(0, 0, 0, 0.363);
+            max-width: 900px;
+            min-width: 300px;
+            min-height: 1747px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            margin: auto;
+            font-family: 'Aref', Arial, Helvetica, sans-serif;
+        }
+        main img{
+            padding-top: 30px;
+            margin: auto;
+            display: block;
+        }
+        main a{
+            background-color: #1c345c;
+            padding: 1px 4px 4px 4px;
+            border-radius: 10px;
+            color: var(--color02);
+            text-decoration: none;
+        }
+         main a:hover{
+            text-decoration: underline;
+            transition-duration: 0.5s;
+         }
+        /*main a{
+            color: var(--color05);
+        }
+        main a:hover{
+            color: var(--color03);
+        } */
+        picture p#shield{
+            font-size: 15px;
+            text-align: center;
+            padding-bottom: 30px;
+            text-indent: 0px;
+        }
+        main h2{
+            padding: 20px;
+        }
+        img#icon{
+            display: inline-block;
+            max-width: 21px;
+        }
+        main p{
+            text-align: justify;
+            padding: 10px;
+            margin: 10px;
+            text-indent: 36px;
+        }
+        aside h3{
+            margin-top: 20px;
+            padding: 10px;
+        }
+        aside h3.dif{
+            margin-bottom: -20px;
+        }
+        aside p{
+            text-indent: 0;
+        }
+        div.video{
+            background-color: var(--color05);
+            padding-bottom: 59%;
+            position: relative;
+            margin: 10px 0px 15px 0px;
+        }
+        div.video iframe{
+             position: absolute;
+             top: 5%;
+             left: 5%;
+             width: 90%;
+             height: 90%;
+        }
+        aside img.lyrics{
+            display: inline-block;
+            max-width: 22px;
+        }
+        hr.dif{
+            margin: 14px 10px -36px 10px;
+        }
+        p.dof{
+            padding-bottom: 20px;
+        }
+        footer{
+            background-color: var(--color05);
+            color: white;
+            margin-top: 50px;
+        }
+        footer p{
+            text-align: center;
+        }
+        footer a{
+            color: white;
+            text-decoration: dashed;
+        }
+        footer a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Curiosidades do Futebol</h2>
+        <!--<picture>
+            <img src="./img/AD_Confianca.png" alt="confianca-logo">
+        </picture>-->
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">NOTÍCIAS</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">CONFIANÇA</a></li>
+                <hr>
+                <li><img src="../img/flag-united-states_1f1fa-1f1f8.png" alt="usa-flag"><a href="../index.html">EN</a></li>
+                <li><img src="../img/flag-brazil_1f1e7-1f1f7.png" alt="brazil-flag"><a href="#">PT</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!--https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a
+            
+            LINK DO WIKIPEDIA DO CONFIANÇA
+            
+            https://pt.wikipedia.org/wiki/Aracaju
+            
+            LINK DO WIKIPEDIA ARACAJU
+
+            -->
+            <h2> <img id="icon" src="../img/AD_Confianca.ico" alt="icon-connfiança"> Orgulho operário e tradição no “Hino Oficial do Confiança (SE)</h2>
+
+            <p>O “Hino Oficial do <a target="_blank" rel="external" href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a">Confiança (SE)”</a>, interpretado por Hinos de Futebol, ressalta o orgulho das origens operárias do clube ao afirmar: “Dos operários tem o nome a vitória”. Esse verso faz referência direta à fundação do time em 1936 por trabalhadores da Fábrica Confiança, reforçando a identidade popular e a forte ligação do clube com a classe trabalhadora de <a target="_blank" href="https://pt.wikipedia.org/wiki/Aracaju">Aracaju</a>. O hino vai além de celebrar conquistas esportivas, valorizando a trajetória coletiva e a força de uma comunidade que se reconhece no time.</p>
+
+            <picture>
+                <img src="../img/4bb00b5d08b49fb0dd8dd5dc32fb33b0.jpg" alt="logos-png">
+                <p id="shield">Evolução dos escudos do Confiança</p>
+            </picture>
+
+
+            <p>Expressões como “campeão dos campeões” e a menção à “bandeira de cor alvi-anil” reforçam o sentimento de tradição e pertencimento. Já os versos “Tua luta continuará / Outras taças / Iremos conquistar” transmitem perseverança e esperança em novas vitórias. O trecho final, “Quem foi rei sempre é majestade”, sugere que, independentemente dos resultados futuros, o <a target="_blank" rel="external" href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Confian%C3%A7a">Confiança</a> mantém seu status de grandeza e respeito, perpetuando o orgulho de sua história. Assim, a música se torna um símbolo de união, memória e motivação para torcedores e jogadores, celebrando tanto o passado glorioso quanto a expectativa de conquistas futuras.</p>
+        </article>
+        <aside>
+            <h3>Ouça o hino do Confiança:</h3>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/moPFJqIk_74?si=WO10yPOoNjVomyM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h3 class="dif">Letra do Hino do Confiança - (Original) <img class="lyrics" src="../img/flag-brazil_1f1e7-1f1f7.png" alt="flag-brazil"></h3>
+            
+            <p>Quem é o campeão dos campeões <br>
+                Que no gramado mantém sua glória <br>
+                É a Desportiva Confiança <br>
+                Dos operários tem o nome a vitória <br>
+                Sua bandeira de cor alvi-anil <br>
+                Sou Confiança em todo Brasil <br>
+                Tua luta continuará <br>
+                Outras taças <br>
+                Iremos conquistar <br> 
+                Essa é a realidade <br>
+                Quem foi rei sempre é majestade. <br>
+            </p>       
+        </aside>
     </main>
     <footer>
-
+        <p>Site criado por <a target="_blank" rel="external" href="https://github.com/gabrielfonsecasx"><strong>GabrielFonsecasx</strong></a></p>
     </footer>
     
 </body>
