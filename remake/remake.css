@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+        @font-face {
+            font-family: 'Aref';
+            src: url(./fonts/ArefRuqaa-Regular.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Ruqaa';
+            src: url(./fonts/ArefRuqaa-Bold.ttf) format('truetype');
+        }
+
+        /*
+        #D4A852 - dourado
+        #F9F9F9 - branco
+        #040404 -preto
+        #2A4D85 - azul
+
+        
+        Aref Ruqaa
+
+        */
+
+        :root{
+            --color01: #D4A852;
+            --color02: #F9F9F9;
+            --color03: #040404;
+            --color04: #2A4D85;
+            --color05: #1c345c;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }        
+        header{
+            background-image: url(../img/WhatsApp\ Image\ 2025-10-10\ at\ 11.47.50.jpeg);
+            background-position: center center;
+            padding-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header h2{
+            color: white;
+            text-align: center;
+            padding: 20px 20px 50px 20px;
+            font-size: 40px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+        nav li{
+            display: inline;
+        }
+        nav a:hover{
+            color: var(--color01);
+            text-decoration: underline;
+            transition-duration: 0.5;
+        }
+        hr{
+            margin: 10px;
+        }
+       /* header img{
+            display: inline-block;
+            width: 15%;
+        } */
+        header img:hover{
+            opacity: 50%;
+        }
+        header img{
+            max-width: 15px;
+            padding-left: 10px;
+        }
+        body{
+            background-color: var(--color02);
+        }
+        main{
+            background-color: white;
+            box-shadow: 3px 7px 11px rgba(0, 0, 0, 0.363);
+            max-width: 900px;
+            min-width: 300px;
+            min-height: 1747px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            margin: auto;
+            font-family: 'Aref', Arial, Helvetica, sans-serif;
+        }
+        main img{
+            padding-top: 30px;
+            margin: auto;
+            display: block;
+        }
+        main a{
+            background-color: #1c345c;
+            padding: 1px 4px 4px 4px;
+            border-radius: 10px;
+            color: var(--color02);
+            text-decoration: none;
+        }
+         main a:hover{
+            text-decoration: underline;
+            transition-duration: 0.5s;
+         }
+        /*main a{
+            color: var(--color05);
+        }
+        main a:hover{
+            color: var(--color03);
+        } */
+        picture p#shield{
+            font-size: 15px;
+            text-align: center;
+            padding-bottom: 30px;
+            text-indent: 0px;
+        }
+        main h2{
+            padding: 20px;
+        }
+        img#icon{
+            display: inline-block;
+            max-width: 21px;
+        }
+        main p{
+            text-align: justify;
+            padding: 10px;
+            margin: 10px;
+            text-indent: 36px;
+        }
+        aside h3{
+            margin-top: 20px;
+            padding: 10px;
+            text-align: left;
+        }
+        aside h3.dif{
+            margin-bottom: -20px;
+        }
+        @media (max-width: 768px){
+            h3{
+                font-size: 12px;
+            }
+        }
+        aside p{
+            text-indent: 0;
+        }
+        div.video{
+            background-color: var(--color05);
+            padding-bottom: 59%;
+            position: relative;
+            margin: 10px 0px 15px 0px;
+        }
+        div.video iframe{
+             position: absolute;
+             top: 5%;
+             left: 5%;
+             width: 90%;
+             height: 90%;
+        }
+        aside img.lyrics{
+            display: inline-block;
+            max-width: 22px;
+        }
+        hr.dif{
+            margin: 14px 10px -36px 10px;
+        }
+        p.dof{
+            padding-bottom: 20px;
+        }
+        footer{
+            background-color: var(--color05);
+            color: white;
+            margin-top: 50px;
+        }
+        footer p{
+            text-align: center;
+        }
+        footer a{
+            color: white;
+            text-decoration: dashed;
+        }
+        footer a:hover{
+            text-decoration: underline;
+        }
