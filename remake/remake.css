@@ -114,6 +114,37 @@
             padding-bottom: 30px;
             text-indent: 0px;
         }
+        caption{
+            padding: 10px;
+            font-weight: bolder;
+        }
+        td#green{
+            background-image: linear-gradient(to left, rgba(144, 238, 144, 0.658), transparent);
+        }
+        th#green{
+            background-color: rgba(144, 238, 144, 0.658);
+        }
+        td#red{
+            background-image: linear-gradient(to left, rgba(255, 122, 122, 0.429), transparent);
+        }
+        th#red{
+            background-color: rgba(255, 122, 122, 0.429);
+        }
+        div#table{
+            overflow-x: auto;
+            margin-bottom: 35px;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td, th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        h1{
+            padding: 20px;
+        }
         main h2{
             padding: 20px;
         }
