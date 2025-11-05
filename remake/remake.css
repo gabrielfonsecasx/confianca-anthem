@@ -145,6 +145,31 @@
         h1{
             padding: 20px;
         }
+        article#bck{
+            background-color: dimgray;
+            padding: 30px;
+            line-height: 2em;
+            margin: 50px 0px 0px 0px;
+            background-image: url(../img/confianca_x_abc_1.webp);
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: inset 4px 9px 15px rgba(0, 0, 0, 0.616);
+        }
+        #pipi{
+            background-color: #040404a4;
+            color: white;
+            display: inline-block;
+            text-indent: 0;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px black;
+        }
+        p.small{
+            font-size: 12px;
+            text-align: right;
+        }
         main h2{
             padding: 20px;
         }
