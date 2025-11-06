@@ -180,7 +180,8 @@
         main p{
             text-align: justify;
             padding: 10px;
-            margin: 10px;
+            margin: f10px;
+            font-size: 20px;
             text-indent: 36px;
         }
         aside h3{
@@ -198,6 +199,17 @@
         }
         aside p{
             text-indent: 0;
+        }
+        p.danger{
+            text-align: center;
+            font-size: 16px;
+            color: red;
+        }
+        p.danger a{
+            color: blue;
+            background-color: white;
+            border-radius: 0;
+            text-decoration: underline;
         }
         div.video{
             background-color: var(--color05);
